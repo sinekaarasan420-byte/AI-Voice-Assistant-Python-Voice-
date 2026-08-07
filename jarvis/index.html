@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinek Industries Advanced HUD v3.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 3D காக்பிட் கார்டு -->
+    <div class="hud-card">
+        
+        <!-- 🌟 உங்க பேக்ரவுண்ட் நியான் டெக்ஸ்ட் 🌟 -->
+        <div class="bg-brand-name">SINEK</div>
+
+        <!-- லைவ் சிஸ்டம் மெட்ரிக்ஸ் -->
+        <div class="hud-stat cpu-dial">CPU: <span id="cpu-val">00</span>%</div>
+        <div class="hud-stat ram-dial">RAM: <span id="ram-val">00</span>%</div>
+
+        <!-- அட்வான்ஸ்டு 3D சென்டர் ஆர்க் ரியாக்டர் -->
+        <div class="reactor-3d-zone">
+            <div class="reactor-ring layer-1"></div>
+            <div class="reactor-ring layer-2"></div>
+            <div class="reactor-ring layer-3"></div>
+            <div class="reactor-core-glow"></div>
+        </div>
+
+        <!-- ஜார்விஸ் வாய்ஸ் ஸ்டேட்டஸ் பேனல் -->
+        <div class="system-status">
+            <p id="jarvis-say">SINEK INDUSTRIES CORE: ONLINE</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
